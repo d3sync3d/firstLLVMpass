@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "llvm/IR/LLVMContext.h"
 #include "llvm/IR/Module.h"
 #include "llvm/IRReader/IRReader.h"
@@ -13,5 +14,6 @@
 using namespace llvm;
 
 int main(int argc, char** argv){
+    printf("hello\n");
     return 0;
 }
