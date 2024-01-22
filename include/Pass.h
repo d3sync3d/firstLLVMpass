@@ -5,7 +5,6 @@
 #include "llvm/Support/SourceMgr.h"
 #include "llvm/Passes/PassBuilder.h"
 #include "llvm/Passes/PassPlugin.h"
-#include "llvm/IR/LegacyPassManager.h"
 
 using namespace llvm;
 
